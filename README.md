@@ -21,16 +21,15 @@ Directly processes Wireshark PCAP traces to timestamps, and failure causes, with
 
 ---
 
-## 4. Structured Data 
 ## 4. Structured Raw Data for RAG
-Standardized structured raw data prepared for the RAG retrieval system, before any text conversion or processing.
-![original structured data](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/original structured data.png)
+Standardized structured raw data prepared for the RAG retrieval system, before text conversion or processing.
+![original structured_data](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/original structured data.png)
 
 ---
 
 ## 5. Backend API Response
 The analysis results are exposed via a API, delivering machine-readable reports with clear root cause analysis and step-by-step troubleshooting recommendations.
-![backend_api_response ](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/backend_api_response .png)
+![backend_api_response](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/backend_api_response .png)
 
 ---
 
