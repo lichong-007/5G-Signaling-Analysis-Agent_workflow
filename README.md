@@ -1,6 +1,6 @@
 # 5G Signaling Analysis Agent Workflow
 
-A multi-agent intelligent system designed to 5G Signaling Analysis Agent, from raw PCAP parsing to structured root cause analysis and actionable report generation.
+A intelligent system designed to 5G Signaling Analysis Agent, from raw PCAP parsing to structured root cause analysis and actionable report generation.
 
 
 ## 1. Frontend Demo Interface
@@ -23,13 +23,13 @@ Directly processes Wireshark PCAP traces to timestamps, and failure causes, with
 
 ## 4. Structured Raw Data for RAG
 Standardized structured raw data prepared for the RAG retrieval system, before text conversion or processing.
-![original structured_data](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/original structured data.png)
+![original structured_data](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/original_structured_data.png)
 
 ---
 
 ## 5. Backend API Response
 The analysis results are exposed via a API, delivering machine-readable reports with clear root cause analysis and step-by-step troubleshooting recommendations.
-![backend_api_response](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/backend_api_response .png)
+![backend_api_response](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/backend_api_response.png)
 
 ---
 
@@ -40,9 +40,8 @@ The analysis results are exposed via a API, delivering machine-readable reports 
 - **Actionable Recommendations**: Generates telecom-standard troubleshooting steps aligned with 3GPP specifications
 
 ## Tech Stack
-- Orchestration: LangGraph
+- Orchestration: LangChain
 - LLM Reasoning: Domain-adapted large language model
 - Signaling Parsing: Custom 3GPP protocol decoder
-- Backend: FastAPI, Python
-- Data Processing: Pandas, structured rule engine
-- Frontend: Streamlit interactive dashboard
+- Backend: Python, FAISS, Ollama, Wireshark
+- Data Processing: Pandas
