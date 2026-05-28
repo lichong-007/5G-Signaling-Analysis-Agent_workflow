@@ -37,7 +37,7 @@ The analysis results are exposed via a API, delivering machine-readable reports 
 - **Protocol-Aware Parsing**: Decodes 5G NAS/S1AP signaling and maps events to business procedures
 - **Multi-Agent Reasoning**: Uses task decomposition to handle complex, multi-step failure scenarios
 - **Root Cause Correlation**: Identifies causal relationships between events
-- **Actionable Recommendations**: Generates telecom-standard troubleshooting steps aligned with 3GPP specifications
+- **Actionable Recommendations**: Generates telecom-standard troubleshooting steps with 3GPP specifications
 
 ## Tech Stack
 - Orchestration: LangChain
