@@ -4,7 +4,7 @@ A intelligent system designed to 5G Signaling Analysis Agent, from raw PCAP pars
 
 
 ## 1. Frontend Demo Interface
-The interactive dashboard provides end-to-end visualization of the analysis workflow, from task submission to final report display.
+The interactive dashboard provides end-to-end view of the analysis workflow, from task submission to final report display.
 ![agent_demo_ui.png](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/agent_demo_ui.png)
 
 ---
