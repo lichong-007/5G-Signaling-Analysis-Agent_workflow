@@ -41,7 +41,6 @@ The analysis results are exposed via a API, delivering machine-readable reports 
 
 ## Tech Stack
 - Orchestration: LangChain
-- LLM Reasoning: Domain-adapted large language model
 - Signaling Parsing: Custom 3GPP protocol decoder
 - Backend: Python, FAISS, Ollama, Wireshark
 - Data Processing: Pandas
