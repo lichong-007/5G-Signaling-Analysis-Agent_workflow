@@ -10,7 +10,7 @@ The interactive dashboard provides end-to-end visualization of the analysis work
 ---
 
 ## 2. 5G Signaling Procedure Mapping
-A structured knowledge base that maps 3GPP-defined procedures, message types, and error codes to business contexts, enabling precise event correlation.
+A structured knowledge base that maps 3GPP-defined procedures, message types, and error codes to business contexts, enabling precise main_event correlation.
 ![5g_procedure_mapping](https://github.com/lichong-007/5G-Signaling-Analysis-Agent_workflow/blob/main/assets/5g_procedure_mapping.png)
 
 ---
